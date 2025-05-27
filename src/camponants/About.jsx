@@ -37,17 +37,18 @@ function About() {
        <div className="p-6">
       {/* Buttons start*/}
       <div className="flex justify-center mb-6 space-x-4">
-        <button
-          onClick={() => setActiveTab('skills')}
-          className={`px-6 py-2 rounded-lg ${activeTab === 'skills' ? 'bg-blue-600 text-white' : 'bg-gray-200 text-black'}`}
-        >
-          Skills
-        </button>
-        <button
-          onClick={() => setActiveTab('education')}
-          className={`px-4 py-2 rounded-lg bg-cover  bg-no-repeat relative overflow-hidden ${activeTab === 'education' ? 'bg-blue-600 text-black text-bold' : 'bg-gray-200 text-black'}`} >
-          Education
-        </button>
+         <button
+    onClick={() => setActiveTab('skills')}
+    className={`px-6 py-2 rounded-lg ${activeTab === 'skills' ? 'bg-blue-600 text-white' : 'bg-gray-200 text-black'}`}
+  >
+    Skills
+  </button>
+  <button
+    onClick={() => setActiveTab('education')}
+    className={`px-4 py-2 rounded-lg bg-cover bg-no-repeat relative overflow-hidden ${activeTab === 'education' ? 'bg-blue-600 text-black font-bold' : 'bg-gray-200 text-black'}`}
+  >
+    Education
+  </button>
       </div>
       {/* Buttons End*/}
 
@@ -55,10 +56,8 @@ function About() {
       <div className="lg:ml-10">
         {activeTab === 'skills' && (
           <>
-
             <div className='block lg:hidden w-full'>
                 <div className='grid grid-cols-2 gap-x-4 w-full gap-y-10 mt-10'>
-                  <img src="" alt="" className='w-[90%]'/>
                 <img src={react} alt="" className='w-[90%]'/>
                 <img src={java} alt="" className='w-[90%]'/>
                 <img src={frant} alt="" className='w-[90%]'/>
@@ -100,9 +99,9 @@ function About() {
             <div>
             <ul className="space-y-8 lg:mt-8">
               <li>
-                <strong className='ml-27 text-2xl text-white'>Web Dovlopment</strong><br />
+                <strong className='ml-27 text-2xl text-white'>Web Development</strong><br />
                 <strong className='flex gap-x-5 mt-2 text-white text-sm'><img src={computerguru} alt="" className='w-22 rounded-sm mt-[-38px]'/>
-                Computer Guru Trainig Institute <br /> (1 Year Diploma)</strong>
+                Computer Guru Training Institute <br /> (1 Year Diploma)</strong>
               </li>
               <li>
                  <strong className='ml-27 text-2xl text-white lg:w-full justify-end'>Information Technology</strong><br />
@@ -110,9 +109,9 @@ function About() {
                 Uttrakhand Open Universty<br /> (1 Year Diploma)</strong>
               </li>
               <li>
-                <strong className='ml-27 text-2xl text-white'>Bachlor Of Art</strong><br />
+                <strong className='ml-27 text-2xl text-white'>Bachelor Of Art</strong><br />
                 <strong className='flex gap-x-5 mt-2 text-white text-sm'><img src={uou} alt="" className='w-22 rounded-sm mt-[-40px]'/>
-                Uttrakhand Open Universty<br /> ( 3 Year Graducation )</strong>
+                Uttrakhand Open Universty<br /> ( Graduation )</strong>
               </li>
               <li>
                 <strong className='ml-27 text-2xl text-white'>12th</strong><br />

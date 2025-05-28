@@ -15,7 +15,7 @@ function Header() {
         <a href="#About" className='hover:text-[#FBFBFC]'>About</a>
         <a href="#Experience" className='hover:text-[#FBFBFC]'>Experience</a>
         <a href="#Project" className='hover:text-[#FBFBFC]'>Project</a>
-        <a href="" className='hover:text-[#FBFBFC]'>Contact</a>
+        <a href="#Contact" className='hover:text-[#FBFBFC]'>Contact</a>
       </div>
       {/* Images start */}
       <div className='lg:ml-45 ml-1 flex gap-5 items-center sm:ml-[440px]'>

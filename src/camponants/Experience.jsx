@@ -25,37 +25,37 @@ function Experience() {
                             <p className='text-sm mb-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui sit distinctio magni quod enim tempore impedit, laudantium dolorem fuga deleniti placeat aspernatur consequatur voluptatum repellat nemo atque voluptate, eaque veritatis.</p>
                             <ul className='grid grid-cols-2 lg:grid-cols-4 gap-3 lg:w-full w-[100%]'>
                                 <li className='border-1 lg:px-4 lg:py-1 px-6 py-1 text-sm rounded-2xl border-[#12204402] bg-[#183656] text-[#4EC1C6] text-center items-center'>Google Ads</li>
-                                 <li className='border-1 lg:px-4 lg:py-1 px-6 py-1 text-sm rounded-2xl border-[#12204402] bg-[#183656] text-[#4EC1C6]'>Google Ads</li>
-                                  <li className='border-1 lg:px-4 lg:py-1 px-6 py-1 text-sm rounded-2xl border-[#12204402] bg-[#183656] text-[#4EC1C6]'>Google Ads</li>
-                                  <li className='border-1 lg:px-4 lg:py-1 px-6 py-1 text-sm rounded-2xl border-[#12204402] bg-[#183656] text-[#4EC1C6]'>Google Ads</li>
+                                 <li className='border-1 lg:px-4 lg:py-1 px-6 py-1 text-sm rounded-2xl border-[#12204402] bg-[#183656] text-[#4EC1C6] text-center'>Google Ads</li>
+                                  <li className='border-1 lg:px-4 lg:py-1 px-6 py-1 text-sm rounded-2xl border-[#12204402] bg-[#183656] text-[#4EC1C6] text-center'>Google Ads</li>
+                                  <li className='border-1 lg:px-4 lg:py-1 px-6 py-1 text-sm rounded-2xl border-[#12204402] bg-[#183656] text-[#4EC1C6] text-center'>Google Ads</li>
                             </ul>
                         </div>
                         </div>
                     {/* 2nd div */}
-                            <div className=' flex border-1 hover:border-[#122044a4] hover:bg-[#172649] border-[#12204402]  space-x-5 i px-5 py-5 lg:w-[90%] w-[100%] lg:mt-15 rounded-sm'>
+                            <div className=' flex border-1 hover:border-[#122044a4] hover:bg-[#172649] border-[#12204402]  space-x-5 i px-5 py-5 lg:w-[90%] w-[100%] lg:mt-1 rounded-sm'>
                         <div className='lg:w-full w-[100%] text-sm lg:mt-1 mt-1'><h1>2024 - PRESENT</h1></div>
                         <div className='text-justify lg:ml-[-90px]'>
                             <h1 className='mb-2 lg:text-[19px] hover:text-[#4EC1C6] text-white'>OFFICE ASSISTENT- SAMOON FOUNDATION ( NGO )</h1>
                             <p className='text-sm mb-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui sit distinctio magni quod enim tempore impedit, laudantium dolorem fuga deleniti placeat aspernatur consequatur voluptatum repellat nemo atque voluptate, eaque veritatis.</p>
                             <ul className='grid grid-cols-2 lg:grid-cols-4 gap-3 lg:w-full w-[100%]'>
-                                <li className='border-1 lg:px-4 lg:py-1 px-6 py-1 text-sm rounded-2xl border-[#12204402] bg-[#183656] text-[#4EC1C6]'>Google Ads</li>
-                                 <li className='border-1 lg:px-4 lg:py-1 px-6 py-1 text-sm rounded-2xl border-[#12204402] bg-[#183656] text-[#4EC1C6]'>Google Ads</li>
-                                  <li className='border-1 lg:px-4 lg:py-1 px-6 py-1 text-sm rounded-2xl border-[#12204402] bg-[#183656] text-[#4EC1C6]'>Google Ads</li>
-                                  <li className='border-1 lg:px-4 lg:py-1 px-6 py-1 text-sm rounded-2xl border-[#12204402] bg-[#183656] text-[#4EC1C6]'>Google Ads</li>
+                                <li className='border-1 lg:px-4 lg:py-1 px-6 py-1 text-sm rounded-2xl border-[#12204402] bg-[#183656] text-[#4EC1C6] text-center'>Google Ads</li>
+                                 <li className='border-1 lg:px-4 lg:py-1 px-6 py-1 text-sm rounded-2xl border-[#12204402] bg-[#183656] text-[#4EC1C6] text-center'>Google Ads</li>
+                                  <li className='border-1 lg:px-4 lg:py-1 px-6 py-1 text-sm rounded-2xl border-[#12204402] bg-[#183656] text-[#4EC1C6] text-center'>Google Ads</li>
+                                  <li className='border-1 lg:px-4 lg:py-1 px-6 py-1 text-sm rounded-2xl border-[#12204402] bg-[#183656] text-[#4EC1C6] text-center'>Google Ads</li>
                             </ul>
                         </div>
                         </div>
                         {/* 3rd */}
-                        <div className=' flex border-1 hover:border-[#122044a4] hover:bg-[#172649] border-[#12204402]  space-x-5 i px-5 py-5 lg:w-[90%] w-[100%] lg:mt-15 rounded-sm'>
+                        <div className=' flex border-1 hover:border-[#122044a4] hover:bg-[#172649] border-[#12204402]  space-x-5 i px-5 py-5 lg:w-[90%] w-[100%] lg:mt-1 rounded-sm'>
                         <div className='lg:w-full w-[100%] text-sm lg:mt-1 mt-1'><h1>2024 - PRESENT</h1></div>
                         <div className='text-justify lg:ml-[-90px]'>
                             <h1 className='mb-2 lg:text-[19px] hover:text-[#4EC1C6] text-white'>OFFICE ASSISTENT- SAMOON FOUNDATION ( NGO )</h1>
                             <p className='text-sm mb-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui sit distinctio magni quod enim tempore impedit, laudantium dolorem fuga deleniti placeat aspernatur consequatur voluptatum repellat nemo atque voluptate, eaque veritatis.</p>
                             <ul className='grid grid-cols-2 lg:grid-cols-4 gap-3 lg:w-full w-[100%]'>
-                                <li className='border-1 lg:px-4 lg:py-1 px-6 py-1 text-sm rounded-2xl border-[#12204402] bg-[#183656] text-[#4EC1C6]'>Google Ads</li>
-                                 <li className='border-1 lg:px-4 lg:py-1 px-6 py-1 text-sm rounded-2xl border-[#12204402] bg-[#183656] text-[#4EC1C6]'>Google Ads</li>
-                                  <li className='border-1 lg:px-4 lg:py-1 px-6 py-1 text-sm rounded-2xl border-[#12204402] bg-[#183656] text-[#4EC1C6]'>Google Ads</li>
-                                  <li className='border-1 lg:px-4 lg:py-1 px-6 py-1 text-sm rounded-2xl border-[#12204402] bg-[#183656] text-[#4EC1C6]'>Google Ads</li>
+                                <li className='border-1 lg:px-4 lg:py-1 px-6 py-1 text-sm rounded-2xl border-[#12204402] bg-[#183656] text-[#4EC1C6] text-center'>Google Ads</li>
+                                 <li className='border-1 lg:px-4 lg:py-1 px-6 py-1 text-sm rounded-2xl border-[#12204402] bg-[#183656] text-[#4EC1C6] text-center'>Google Ads</li>
+                                  <li className='border-1 lg:px-4 lg:py-1 px-6 py-1 text-sm rounded-2xl border-[#12204402] bg-[#183656] text-[#4EC1C6] text-center'>Google Ads</li>
+                                  <li className='border-1 lg:px-4 lg:py-1 px-6 py-1 text-sm rounded-2xl border-[#12204402] bg-[#183656] text-[#4EC1C6] text-center'>Google Ads</li>
                             </ul>
                         </div>
                         </div>

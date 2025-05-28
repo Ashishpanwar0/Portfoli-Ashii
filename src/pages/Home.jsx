@@ -4,6 +4,7 @@ import Herosection from '../camponants/Herosection.jsx';
 import About from '../camponants/About.jsx';
 import Experience from '../camponants/Experience.jsx';
 import Project from '../camponants/Project.jsx';
+import Contact from '../camponants/Contact.jsx';
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
         <About />
         <Experience/>
         <Project/>
+        <Contact/>
       </section>
     </>
   );

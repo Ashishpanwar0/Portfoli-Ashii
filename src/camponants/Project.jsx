@@ -14,7 +14,17 @@ function Project() {
                   <div className='flex'>
                         <a href="https://pv-hotal-6c5589.netlify.app/" target="_blank"><img src={Project1} alt="" className='lg:w-[400px] rounded-sm scale-100 opacity-80 hover:opacity-50'/></a>
                         <div>
-                            
+                            <h1>
+          
+                            </h1>
+                            <p>
+
+                            </p>
+                            <ul>
+                              <li></li>
+                              <li></li>
+                              <li></li>
+                            </ul>
                         </div>
                   </div>
 

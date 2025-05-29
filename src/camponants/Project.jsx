@@ -6,7 +6,7 @@ import Erow from '../assets/Erow.gif';
 function Project() {
   return (
     <section id='Project'>
-         <div className='text-center text-5xl mb-5 text-[#e2e8f0b6] lg:mt-10'>
+         <div className='text-center text-5xl mb-5 text-[#A78BFA] lg:mt-10 mt-10'>
                 <h1>Project</h1>
             </div>
 
@@ -16,8 +16,8 @@ function Project() {
                         <a href="https://pv-hotal-6c5589.netlify.app/" target="_blank" className='lg:ml-15 '><img src={Project1} alt="" className='lg:w-[400px] rounded-[10px] scale-100 opacity-80 hover:opacity-50 w-[94%] lg:mb-2 mb-3 ml-3 lg:ml-0'/></a>
                           <img src={Erow} alt="" className='w-35 h-20 absolute lg:block hidden lg:ml-117'/>
                         <div className='text-[#e2e8f0b6] lg:w-[50%] text-justify border-1 hover:border-[#122044a4] hover:bg-[#172649] border-[#12204402] px-5 py-2 rounded-xl'>
-                            <h1 className='text-2xl text-[#A78BFB] mb-3'>
-                              Responsive Hotal Website 
+                            <h1 className='text-2xl text-[white] mb-3'>
+                              Responsive Hotel Website 
                             </h1>
                             <p className='mb-5 text-sm'>
                               I designed and developed a fully responsive Yoga website with a calm, modern interface that reflects the spirit of yoga. It includes cleanly structured sections like Home, About, Classes, and Contact. The layout adapts smoothly across all devices, providing an engaging and user-friendly experience. The project focuses on simplicity, clarity, and a peaceful visual design.
@@ -37,7 +37,7 @@ function Project() {
                         <a href="https://yogni.netlify.app/" target="_blank" className='lg:ml-15 '><img src={project2} alt="" className='lg:w-[400px] rounded-[10px] scale-100 opacity-80 hover:opacity-50 w-[94%] lg:mb-2 mb-3 ml-3 lg:ml-0'/></a>
                           <img src={Erow} alt="" className='w-35 h-20 absolute lg:block hidden lg:ml-117'/>
                         <div className='text-[#e2e8f0b6] lg:w-[50%] text-justify border-1 hover:border-[#122044a4] hover:bg-[#172649] border-[#12204402] px-5 py-2 rounded-xl'>
-                            <h1 className='text-2xl text-[#A78BFB] mb-3'>
+                            <h1 className='text-2xl text-[white] mb-3'>
                               Responsive Yoga Website 
                             </h1>
                             <p className='mb-5 text-sm'>

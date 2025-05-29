@@ -11,7 +11,7 @@ function Experience() {
             <div className='lg:flex'>
                 {/* Image */}
                 <div>
-                    <img src={ex} alt="" className='lg:w-[1100px] h-[600px] lg:ml-[-30px] lg:mt-5 mt-[-130px]'/>
+                    <img src={ex} alt="" className='lg:w-[1100px] h-[600px] sm:ml-[160px] lg:ml-[-30px] lg:mt-5 mt-[-130px]'/>
                 </div>
                 {/* Image End */}
 

@@ -99,23 +99,23 @@ function About() {
                 <div>
                   <ul className="space-y-8 lg:mt-8">
                     <li>
-                      <strong className='ml-27 text-2xl text-white'>Web Development</strong><br />
+                      <strong className='ml-27 text-xl lg:text-2xl text-white'>Web Development</strong><br />
                       <strong className='flex gap-x-5 mt-2 text-white text-sm'><img src={computerguru} alt="" className='w-22 rounded-sm mt-[-38px]' />
                         Computer Guru Training Institute <br /> (1 Year Diploma)</strong>
                     </li>
                     <li>
-                      <strong className='ml-27 text-2xl text-white lg:w-full justify-end'>Information Technology</strong><br />
+                      <strong className='ml-27 text-xl lg:text-2xl text-white lg:w-full justify-end'>Information <span className='lg:ml-0 ml-26 sm:ml-0'>Technology</span></strong><br />
                       <strong className='flex gap-x-5 mt-2 text-white text-sm'><img src={uou} alt="" className='w-22 rounded-sm mt-[-40px]' />
                         Uttrakhand Open Universty<br /> (1 Year Diploma)</strong>
                     </li>
                     <li>
-                      <strong className='ml-27 text-2xl text-white'>Bachelor Of Art</strong><br />
+                      <strong className='ml-27 text-xl lg:text-2xl text-white'>Bachelor Of Art</strong><br />
                       <strong className='flex gap-x-5 mt-2 text-white text-sm'><img src={uou} alt="" className='w-22 rounded-sm mt-[-40px]' />
                         Uttrakhand Open Universty<br /> ( Graduation )</strong>
                     </li>
                     <li>
-                      <strong className='ml-27 text-2xl text-white'>12th</strong><br />
-                      <strong className='flex gap-x-5 mt-2 text-white text-sm'><img src={saraswati} alt="" className='w-22 rounded-sm mt-[-40px]' />
+                      <strong className='ml-27 tex-xl lg:text-2xl text-white'>12th</strong><br />
+                      <strong className='flex gap-x-5 lg:mt-1 text-white text-sm'><img src={saraswati} alt="" className='w-22 rounded-sm mt-[-40px]' />
                         Saraswati Vidhya Mandir<br /> ( 2021 with 70% )</strong>
                     </li>
                   </ul>

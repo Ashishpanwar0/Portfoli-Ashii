@@ -22,6 +22,7 @@ function Contact() {
                   <input type="text" placeholder='Enter Your Email' name="" id="" className='border-b px-2 lg:w-[48%] h-10 w-[90%]'/>
                   <br/>
                   <textarea name="" id="" placeholder='Enter Message' className='border-b lg:w-[99%]  h-20 px-2 py-2 w-[90%]'></textarea>
+                  <button className='border-1 border-[#0F172A] bg-[#ffffffd0] text-[black] px-3 py-2 rounded-sm hover:bg-[#A78BFA]'>Submit Here</button>
                   <button className='border-1 border-[#0F172A] bg-[#ffffffd0] text-[black] px-3 py-2 rounded-sm hover:bg-[#A78BFA]'>Dowload Rusume</button>
                 </form>
               </div>

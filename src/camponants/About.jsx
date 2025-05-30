@@ -27,7 +27,7 @@ import react from '../assets/react.gif';
 import java from '../assets/java-script.gif';
 
 function About() {
-  const [activeTab, setActiveTab] = useState('skills');
+  const [activeTab, setActiveTab] = useState('education');
   return (
     <>
       <section id="About" className='pt-10'>
@@ -37,24 +37,33 @@ function About() {
         <div className="p-6">
           {/* Buttons start*/}
           <div className="flex justify-center mb-6 space-x-4">
-            <button
-              onClick={() => setActiveTab('skills')}
-              className={`px-10 py-2 rounded-sm ${activeTab === 'skills' ? 'bg-[#A78BFA] text-black flex' : 'bg-[#ffffff] text-black'}`}
-            >
-              Skills 
-            </button>
-            <button
-              onClick={() => setActiveTab('education')}
-              className={`px-10 py-2 rounded-lg bg-cover bg-no-repeat relative overflow-hidden bg-[white] ${activeTab === 'education' ? 'bg-[#A78BFA] text-black' : 'bg-gray-200 text-black'}`}
-            >
-              Education
-            </button>
+<button
+          onClick={() => setActiveTab('skills')}
+          className={`px-5 py-2 rounded-lg transition-all duration-300 ${
+            activeTab === 'skills'
+              ? 'bg-[#A78BFA] text-black'
+              : 'bg-gray-200 text-black'
+          }`}
+        >
+          Education
+        </button>
+        <button
+          onClick={() => setActiveTab('education')}
+          className={`px-10 py-2 rounded-lg transition-all duration-300 ${
+            activeTab === 'education'
+              ? 'bg-[#A78BFA] text-black'
+              : 'bg-gray-200 text-black'
+          }`}
+        >
+          Skills
+        </button>
+
           </div>
           {/* Buttons End*/}
 
           {/* Skills Contant start */}
           <div className="lg:ml-10">
-            {activeTab === 'skills' && (
+           {activeTab === 'education' && (
               <>
                 <div className='block lg:hidden w-full'>
                   <div className='grid grid-cols-2 gap-x-4 w-full gap-y-10 mt-10'>
@@ -90,7 +99,7 @@ function About() {
             {/* Skills Contant end */}
 
             {/* Education contant Start */}
-            {activeTab === 'education' && (
+            {activeTab === 'skills' && (
               <div className='lg:flex lg:gap-x-1'>
                 <div>
                   <img src={security} alt="" className='lg:w-[100%]  lg:h-[750px] w-[100%] h-[auto] scale-x-[-1] lg:mt-[-140px] mt-[-60px] lg:ml-[-50px]' />

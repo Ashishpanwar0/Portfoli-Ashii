@@ -114,7 +114,7 @@ function About() {
                     </li>
                     <li>
                       <strong className='ml-27 text-xl lg:text-2xl text-white lg:w-full justify-end'>Information <span className='lg:ml-0 ml-26 sm:ml-0'>Technology</span></strong><br />
-                      <strong className='flex gap-x-5 mt-2 text-white text-sm'><img src={uou} alt="" className='w-22 rounded-sm mt-[-52px]' />
+                      <strong className='flex gap-x-5 mt-2 text-white text-sm'><img src={uou} alt="" className='w-22 rounded-sm lg:mt-[-40px] mt-[-52px]' />
                         Uttrakhand Open Universty<br /> (1 Year Diploma)</strong>
                     </li>
                     <li>

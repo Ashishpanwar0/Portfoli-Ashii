@@ -34,7 +34,7 @@ function HeroSection() {
                     WEB DEVELOPER <img src={Erow} alt="" className='mt-[-20px] w-25' />
                 </p>
                 <p className='text-justify text-sm text-[#e2e8f0b6] tracking-[1px] lg:w-160 w-[95%]' data-aos="fade-up">
-                    a skilled web and app developer with expertise in React.js, Next.js, MongoDB, Tailwind CSS, PostgreSQL, and Firebase...
+                    A passionate and result-oriented Web Developer with hands-on experience in building modern, responsive web applications. Skilled in React.js, Next.js, Tailwind CSS, Node.js, MongoDB, PostgreSQL, and Firebase. Dedicated to creating clean UI, scalable backend, and efficient full-stack solutions that solve real-world problems....
                 </p>
             </div>
 

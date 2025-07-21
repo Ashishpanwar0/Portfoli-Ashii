@@ -4,6 +4,7 @@ import Aos from 'aos';
 import Contlogo from '../assets/Contlogo.svg';
 import Erow from '../assets/Erow.gif';
 import ContactMassege from '../assets/ContactMassege.gif';
+import resume from '../assets/Ashish_Panwar_Resume.pdf';
 
 function Contact() {
   useEffect(() => {
@@ -38,7 +39,7 @@ function Contact() {
             <br />
             <textarea name="" id="" placeholder='Enter Message' className='border-b lg:w-[99%]  h-20 px-2 py-2 w-[90%]'></textarea>
             <button className='border-1 border-[#0F172A] bg-[#ffffffd0] text-[black] px-3 py-2 rounded-sm hover:bg-[#A78BFA]'>Submit Here</button>
-            <a href="/resume.pdf" download="Ashish_Panwar_Resume.pdf" target="_blank" rel="noopener noreferrer"
+            <a href={resume} download="Ashish_Panwar_Resume.pdf" target="_blank" rel="noopener noreferrer"
               className='inline-block border-1 border-[#0F172A] bg-[#ffffffd0] text-[black] px-3 py-2 rounded-sm hover:bg-[#A78BFA]'
             >
               Download Resume

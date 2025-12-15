@@ -1,72 +1,89 @@
-import React from 'react'
-import ex from '../assets/ex-logo.gif';
-
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function Experience() {
-    return (
-        <section id='Experience' className='w-[100%]'>
-            <div className='text-center text-5xl mb-1 text-[#A78BFA] lg:mt-5 mt-10'>
-                <h1>Experience</h1>
-            </div>
-            <div className='lg:flex'>
-                {/* Image */}
-                <div>
-                    <img src={ex} alt="" className='lg:w-[1100px] h-[600px] sm:ml-[160px] lg:ml-[-30px] lg:mt-5 mt-[-130px]'/>
-                </div>
-                {/* Image End */}
+  useEffect(() => {
+    Aos.init({
+      duration: 1000,
+      once: true,
+      offset: 120,
+      easing: "ease-in-out",
+    });
+  }, []);
 
-                {/* Contanct Start */}
-                    <div className='space-y-1 text-[#e2e8f0b6] lg:mt-0 mt-[-60px]'>
-                        {/* first div */}
-                        <div className=' flex border-1 hover:border-[#122044a4] hover:bg-[#172649] border-[#12204402]  space-x-5 i px-5 py-5 lg:w-[90%] w-[100%] lg:mt-15 rounded-sm'>
-                            <div className='lg:w-full w-[100%] text-sm lg:mt-1 mt-1'><h1>2024 - PRESENT</h1></div>
-                            <div className='text-justify lg:ml-[-90px]'>
-                                <h1 className='mb-2 lg:text-[19px] hover:text-[#4EC1C6] text-white'>OFFICE ASSISTENT- SAMOON FOUNDATION ( NGO )</h1>
-                                <p className='text-sm mb-5'>Handled administrative and digital tasks including Google Ads campaigns, website updates, and volunteer coordination. Worked with tools like WordPress, Canva, and AI platforms to improve productivity. Also supported accounting, online outreach, and internal documentation.</p>
-                                <ul className='grid grid-cols-2 lg:grid-cols-4 gap-3 lg:w-full w-[100%] text-center items-center'>
-                                    <li className='border-1 lg:px-4 lg:py-3 px-6 py-1 text-sm rounded-2xl border-[#9988FB] bg-[#183656] text-[#4EC1C6] text-center items-center'>Google Ads</li>
-                                    <li className='border-1 lg:px-4 lg:py-1 px-6 py-1 text-sm rounded-2xl border-[#9988FB] bg-[#183656] text-[#4EC1C6] text-center'>Website Updating</li>
-                                    <li className='border-1 lg:px-4 lg:py-1 px-6 py-1 text-sm rounded-2xl border-[#9988FB] bg-[#183656] text-[#4EC1C6] text-center'>WordPress</li>
-                                    <li className='border-1 lg:px-4 lg:py-1 px-6 py-1 text-sm rounded-2xl border-[#9988FB] bg-[#183656] text-[#4EC1C6] text-center'>Ai tool</li>
-                                    <li className='border-1 lg:px-4 lg:py-1 px-6 py-1 text-sm rounded-2xl border-[#9988FB] bg-[#183656] text-[#4EC1C6] text-center'>Accounting</li>
-                                    <li className='border-1 lg:px-4 lg:py-1 px-6 py-1 text-sm rounded-2xl border-[#9988FB] bg-[#183656] text-[#4EC1C6] text-center'>Canva</li>
-                                        <li className='border-1 lg:px-4 lg:py-1 px-6 py-1 text-sm rounded-2xl border-[#9988FB] bg-[#183656] text-[#4EC1C6] text-center'>Volunteering</li>
-                                </ul>
-                            </div>
-                            </div>
-                        {/* 2nd div */}
-                                <div className=' flex border-1 hover:border-[#122044a4] hover:bg-[#172649] border-[#12204402]  space-x-5 i px-5 py-5 lg:w-[90%] w-[100%] lg:mt-1 rounded-sm'>
-                            <div className='lg:w-full w-[100%] text-sm lg:mt-1 mt-1'><h1>March (2024) - PRESENT</h1></div>
-                            <div className='text-justify lg:ml-[-90px]'>
-                                <h1 className='mb-2 lg:text-[19px] hover:text-[#4EC1C6] text-white'>Full-Stack Developer - NovaNectar Services Pvt.Ltd <strong>( Internship )</strong></h1>
-                                <p className='text-sm mb-5'>Built responsive web applications using the MERN stack (MongoDB, Express, React, Node.js). Developed APIs, managed user authentication, and implemented dynamic dashboards. Collaborated via GitHub and followed agile development practices.   </p>
-                                <ul className='grid grid-cols-2 lg:grid-cols-4 gap-3 lg:w-full w-[100%] items-center'>
-                                    <li className='border-1 lg:px-4 lg:py-1 px-6 py-1 text-sm rounded-2xl border-[#9988FB] bg-[#183656] text-[#4EC1C6] text-center'>React</li>
-                                    <li className='border-1 lg:px-4 lg:py-1 px-6 py-1 text-sm rounded-2xl border-[#9988FB] bg-[#183656] text-[#4EC1C6] text-center'>Tailwind</li>
-                                    <li className='border-1 lg:px-4 lg:py-1 px-6 py-1 text-sm rounded-2xl border-[#9988FB] bg-[#183656] text-[#4EC1C6] text-center'>Node</li>
-                                    <li className='border-1 lg:px-4 lg:py-1 px-6 py-1 text-sm rounded-2xl border-[#9988FB] bg-[#183656] text-[#4EC1C6] text-center'>Mern Stack</li>
-                                </ul>
-                            </div>
-                            </div>
-                            {/* 3rd */}
-                            <div className=' flex border-1 hover:border-[#122044a4] hover:bg-[#172649] border-[#12204402]  space-x-5 i px-5 py-5 lg:w-[90%] w-[100%] lg:mt-1 rounded-sm'>
-                            <div className='lg:w-full w-[100%] text-sm lg:mt-1 mt-1'><h1>1 Month</h1></div>
-                            <div className='text-justify lg:ml-[-90px]'>
-                                <h1 className='mb-2 lg:text-[19px] hover:text-[#4EC1C6] text-white'>Frontend Developer - Prodigy InfoTech <strong>( Internship )</strong></h1>
-                                <p className='text-sm mb-5'>Focused on creating clean, responsive UI using HTML5, CSS3, and JavaScript. Converted designs into working websites and used GitHub for version control. Improved front-end structure and user experience with modern web practices.</p>
-                                <ul className='grid grid-cols-2 lg:grid-cols-4 gap-3 lg:w-full w-[100%] items-center'>
-                                    <li className='border-1 lg:px-4 lg:py-1 px-6 py-1 text-sm rounded-2xl border-[#9988FB] bg-[#183656] text-[#4EC1C6] text-center'>HTML 5</li>
-                                    <li className='border-1 lg:px-4 lg:py-1 px-6 py-1 text-sm rounded-2xl border-[#9988FB] bg-[#183656] text-[#4EC1C6] text-center'>CSS</li>
-                                    <li className='border-1 lg:px-4 lg:py-1 px-6 py-1 text-sm rounded-2xl border-[#9988FB] bg-[#183656] text-[#4EC1C6] text-center'>JS</li>
-                                    <li className='border-1 lg:px-4 lg:py-1 px-6 py-1 text-sm rounded-2xl border-[#9988FB] bg-[#183656] text-[#4EC1C6] text-center'>GitHub</li>
-                                </ul>
-                            </div>
-                            </div>
-                    </div>
-                {/* Contant End */}
-            </div>
-        </section>
-    )
+  const experiences = [
+    {
+      time: "2024 – Present",
+      title: "Office Assistant — Samoon Foundation (NGO)",
+      desc: "Managing digital and administrative operations including Google Ads campaigns, WordPress website updates, volunteer coordination, documentation, and outreach activities. Improved productivity using AI tools and Canva. Also supported finance tracking and internal reporting.",
+      skills: [
+        "Google Ads",
+        "WordPress",
+        "Canva",
+        "AI Tools",
+        "Documentation",
+        "Volunteer Coordination",
+        "Accounting Support",
+      ],
+    },
+    {
+      time: "2024 – Present",
+      title: "MERN Stack Developer — Intern (Nimokey.com)",
+      desc: "Working on scalable web applications using MERN stack. Developing React components, handling API integration, authentication flows, and dashboard features. Collaborating via GitHub in Agile workflow.",
+      skills: ["React", "JavaScript", "APIs", "GitHub", "Dashboard UI"],
+    },
+    {
+      time: "Apr 2025 – Jun 2025",
+      title: "Full-Stack Developer — Intern (Nova Nectar Services Pvt. Ltd.)",
+      desc: "Built full-stack web applications with responsive UI and secure APIs. Worked in Agile sprints, handled version control, and assisted in deployment workflows.",
+      skills: ["React", "PHP", "MySQL", "APIs", "GitHub"],
+    },
+  ];
+
+  return (
+    <section id="Experience" className="px-6 lg:px-20 text-slate-200">
+      {/* Heading */}
+      <h2
+        className="text-4xl lg:text-5xl font-bold text-center text-[#A78BFA] mb-16"
+        data-aos="fade-up"
+      >
+        Experience
+      </h2>
+
+      {/* GRID */}
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 max-w-6xl mx-auto">
+        {experiences.map((exp, index) => (
+          <div
+            key={index}
+            data-aos={index % 2 === 0 ? "fade-right" : "fade-left"}
+            className="bg-slate-900 rounded-2xl p-8 hover:bg-slate-800 transition"
+          >
+            <span className="text-sm text-slate-400">{exp.time}</span>
+
+            <h3 className="text-xl font-semibold text-white mt-2">
+              {exp.title}
+            </h3>
+
+            <p className="text-sm text-slate-400 mt-4 leading-relaxed text-justify">
+              {exp.desc}
+            </p>
+
+            <ul className="flex flex-wrap gap-3 mt-6 text-sm">
+              {exp.skills.map((skill, i) => (
+                <li
+                  key={i}
+                  className="px-4 py-1 rounded-full bg-[#183656] text-[#4EC1C6] border border-[#9988FB]"
+                >
+                  {skill}
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
 }
 
-export default Experience
+export default Experience;

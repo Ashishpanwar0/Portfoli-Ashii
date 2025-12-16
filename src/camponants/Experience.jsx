@@ -6,9 +6,11 @@ function Experience() {
   useEffect(() => { Aos.init({ duration: 1000, once: true, offset: 120, easing: "ease-in-out" }); }, []);
 
   const experiences = [
-    { time: "2024 - Present", title: "Office Assistant — Samoon Foundation (NGO)", desc: "Managing digital and administrative operations including Google Ads campaigns, WordPress website updates, volunteer coordination, documentation, and outreach activities. Improved productivity using AI tools and Canva. Also supported finance tracking and internal reporting.", skills: ["Google Ads","WordPress","Canva","AI Tools","Documentation","Volunteer Coordination","Accounting Support"] },
-    { time: "2024 - Present", title: "MERN Stack Developer — Intern (Nimokey.com)", desc: "Working on scalable web applications using MERN stack. Developing React components, handling API integration, authentication flows, and dashboard features. Collaborating via GitHub in Agile workflow.", skills: ["React","JavaScript","APIs","GitHub","Dashboard UI"] },
-    { time: "Apr 2025 - Jun 2025", title: "Full-Stack Developer — Intern (Nova Nectar Services Pvt. Ltd.)", desc: "Built full-stack web applications with responsive UI and secure APIs. Worked in Agile sprints, handled version control, and assisted in deployment workflows.", skills: ["React","PHP","MySQL","APIs","GitHub"] },
+    { time: "2024 - Present", title: "Office Assistant - Samoon Foundation (NGO)", desc: "Managed digital and administrative operations, including documentation, email communication, and daily office tasks. Maintained and updated the organization’s website, ensuring smooth functionality and accurate content. Supported online activities such as Google Ads campaigns, social media posting, and outreach initiatives. Assisted in NGO program coordination, volunteer management, and provided overall administrative support to improve operational efficiency.", skills: ["Google Ads","WordPress","Canva","AI Tools","Documentation","Volunteer Coordination","Accounting Support"] },
+    
+    { time: "2024 - Present", title: "MERN Stack Developer - Intern (Nimokey.com)", desc: "Working on scalable web applications using MERN stack. Developing React components, handling API integration, authentication flows, and dashboard features. Collaborating via GitHub in Agile workflow.", skills: ["React","JavaScript","APIs","GitHub","Dashboard UI"] },
+    
+    { time: "Apr 2025 - Jun 2025", title: "Full-Stack Developer - Intern (Nova Nectar Services Pvt. Ltd.)", desc: "Built full-stack web applications with responsive UI and secure APIs. Worked in Agile sprints, handled version control, and assisted in deployment workflows.", skills: ["React","PHP","MySQL","APIs","GitHub"] },
   ];
 
   return (

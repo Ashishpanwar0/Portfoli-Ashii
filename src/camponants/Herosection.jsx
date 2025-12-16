@@ -14,9 +14,9 @@ function HeroSection() {
     <motion.section className="h-auto lg:flex overflow-hidden" initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1 }}>
       
       <div className="lg:w-1/2 w-full space-y-6 lg:ml-16 lg:mt-10 mt-10 px-5 lg:px-0">
-        <h1 className="flex items-center text-4xl lg:text-5xl text-slate-200 tracking-[4px]" data-aos="fade-right">Hi, I Am<img src={Erow} alt="arrow" className="ml-2 w-10 lg:w-26 mt-[-8px]" /></h1>
+        <h1 className="flex items-center text-4xl lg:text-5xl text-slate-200 tracking-[4px]" data-aos="fade-right">Hi, I Am<img src={Erow} alt="arrow" className="ml-2 w-24 lg:w-26 mt-[-8px]" /></h1>
 
-        <h1 className="text-5xl lg:text-6xl font-poppins text-violet-400" data-aos="fade-left">ASHISH PANWAR</h1>
+        <h1 className="text-4xl lg:text-6xl font-poppins text-violet-400" data-aos="fade-left">ASHISH PANWAR</h1>
 
         <p className="text-xl text-slate-300 font-poppins" data-aos="zoom-in-up">Frontend Developer</p>
 
@@ -31,7 +31,7 @@ function HeroSection() {
       </div>
 
       <div className="lg:w-1/2 mt-12 lg:mt-0 relative flex justify-center items-center" data-aos="fade-up-left">
-        <img src={code} alt="code" className="w-20 lg:w-24 absolute top-4 left-6 z-20 animate-bounce" />
+        <img src={code} alt="code" className="w-20 lg:w-24 absolute top-4 left-6 z-20" />
         <img src={Hero} alt="hero" className="w-[80%] lg:w-[85%] scale-x-[-1]" />
       </div>
 

@@ -1,31 +1,44 @@
-import React from 'react'
-import { Link } from 'react-router-dom';
-import logo from '../assets/logo.png';
-import linkedin from '../assets/linkedin.png';
-import github from '../assets/github-icon-2.svg';
-import 'animate.css';
+import React, { useState } from "react";
+import logo from "../assets/logo.png";
+import linkedin from "../assets/linkedin.png";
+import github from "../assets/github-icon-2.svg";
 
 function Header() {
+  const [open, setOpen] = useState(false);
+
   return (
-    // Header start //
-    <section className='flex  h-40 text-[#e2e8f0b6] lg:space-x-5 space-x-35 text-1xl items-center text-center'>
-      <img src={logo} alt="" className='w-30 h-30 lg:ml-12 ml-2 hover:scale-70' />
-      <div className='space-x-20 lg:ml-50 lg:block hidden'>
-        <a href="" className='hover:text-[#FBFBFC]'>Home</a>
-        <a href="#About" className='hover:text-[#FBFBFC]'>About</a>
-        <a href="#Experience" className='hover:text-[#FBFBFC]'>Experience</a>
-        <a href="#Project" className='hover:text-[#FBFBFC]'>Project</a>
-        <a href="#Contact" className='hover:text-[#FBFBFC]'>Contact</a>
+    <header className="top-0 left-0 w-full z-50  backdrop-blur py-4">
+      <div className="max-w-7xl mx-auto px-6 lg:px-12 h-20 flex items-center justify-between">
+
+        <img src={logo} alt="logo" className="w-40 h-40 hover:scale-105 transition" />
+
+        <nav className="hidden lg:flex items-center gap-20 text-slate-300">
+          <a href="#" className="hover:text-violet-400 transition">Home</a>
+          <a href="#About" className="hover:text-violet-400 transition">About</a>
+          <a href="#Experience" className="hover:text-violet-400 transition">Experience</a>
+          <a href="#Project" className="hover:text-violet-400 transition">Project</a>
+          <a href="#Contact" className="hover:text-violet-400 transition">Contact</a>
+        </nav>
+
+        <div className="flex items-center gap-6">
+          <a href="https://www.linkedin.com/in/ashishpanwar2004/" target="_blank" rel="noopener noreferrer"><img src={linkedin} alt="linkedin" className="w-6 hover:scale-110 transition" /></a>
+          <a href="https://github.com/Ashishpanwar0" target="_blank" rel="noopener noreferrer"><img src={github} alt="github" className="w-6 hover:scale-110 transition" /></a>
+          <button onClick={() => setOpen(!open)} className="lg:hidden text-slate-300 text-2xl">☰</button>
+        </div>
+
       </div>
-      {/* Images start */}
-      <div className='lg:ml-45 ml-1 flex gap-5 items-center sm:ml-[440px]'>
-        <a href="https://www.linkedin.com/in/ashishpanwar2004/"> <img src={linkedin} alt="" className='w-10 hover:scale-70' /></a>
-        <a href="https://github.com/Ashishpanwar0"> <img src={github} alt="" className='w-8 hover:scale-70' /></a>
-        {/* Images End */}
-      </div>
-    </section>
-    // Header End//
-  )
+
+      {open && (
+        <div className="lg:hidden bg-slate-950 border-t border-slate-800 px-6 py-6 space-y-4 text-slate-300">
+          <a href="#" onClick={() => setOpen(false)} className="block hover:text-violet-400">Home</a>
+          <a href="#About" onClick={() => setOpen(false)} className="block hover:text-violet-400">About</a>
+          <a href="#Experience" onClick={() => setOpen(false)} className="block hover:text-violet-400">Experience</a>
+          <a href="#Project" onClick={() => setOpen(false)} className="block hover:text-violet-400">Project</a>
+          <a href="#Contact" onClick={() => setOpen(false)} className="block hover:text-violet-400">Contact</a>
+        </div>
+      )}
+    </header>
+  );
 }
 
-export default Header
+export default Header;

@@ -19,7 +19,7 @@ function Contact() {
   return (
     <section id='Contact' className='w-full lg:h-[570px] h-135 overflow-hidden'>
       <div className='text-center text-5xl mb-1 text-[#A78BFA] lg:mt-15 mt-10 hidden' data-aos="fade-down">
-        <h1>Contact</h1>
+        <h1 className=''>Contact</h1>
       </div>
 
       <div className='lg:flex lg:mt-20 gap-x-1 mt-20'>
@@ -31,16 +31,16 @@ function Contact() {
 
         <div className='lg:w-[45%] items-center text-center lg:ml-[-40px]' data-aos="fade-left">
           <form action="" className='lg:mt-25 space-x-3 space-y-10 text-[white]'>
-            <h1 className='flex lg:text-5xl text-4xl lg:mb-1 mb-1 items-center text-[#A78BFA] lg:ml-0 ml-3'>
+            <h1 className='flex lg:text-5xl text-4xl lg:mb-1 mb-1 items-center font-bold text-center text-violet-400 lg:ml-0 ml-3'>
               Contact Me <img src={ContactMassege} alt="" className='w-30' />
             </h1>
-            <input type="text" placeholder='Enter Name' name="" id="" className='border-b  lg:w-[48%] h-10 px-2 w-[90%]' />
-            <input type="text" placeholder='Enter Your Email' name="" id="" className='border-b px-2 lg:w-[48%] h-10 w-[90%]' />
+            <input type="text" placeholder='Enter Name' name="" id="" className='border-b  lg:w-[48%] h-10 px-2 w-[90%] hover:-translate-y-2 hover:shadow-[0_0_25px_rgba(139,92,246,0.15)] transition duration-300' />
+            <input type="text" placeholder='Enter Your Email' name="" id="" className='border-b px-2 lg:w-[48%] h-10 w-[90%] hover:-translate-y-2 hover:shadow-[0_0_25px_rgba(139,92,246,0.15)] transition duration-300' />
             <br />
-            <textarea name="" id="" placeholder='Enter Message' className='border-b lg:w-[99%]  h-20 px-2 py-2 w-[90%]'></textarea>
-            <button className='border-1 border-[#0F172A] bg-[#ffffffd0] text-[black] px-3 py-2 rounded-sm hover:bg-[#A78BFA]'>Submit Here</button>
+            <textarea name="" id="" placeholder='Enter Message' className='border-b lg:w-[99%]  h-20 px-2 py-2 w-[90%] hover:-translate-y-2 hover:shadow-[0_0_25px_rgba(139,92,246,0.15)] transition duration-300'></textarea>
+            <button className='border-1 border-[#0F172A] bg-violet-500 text-white px-3 py-2 rounded-sm hover:bg-violet-600'>Submit Here</button>
             <a href={resume} download="Ashish_Panwar_Resume.pdf" target="_blank" rel="noopener noreferrer"
-              className='inline-block border-1 border-[#0F172A] bg-[#ffffffd0] text-[black] px-3 py-2 rounded-sm hover:bg-[#A78BFA]'
+              className='inline-block border-1 border-[#0F172A] bg-violet-500 text-white px-3 py-2 rounded-sm hover:bg-violet-600'
             >
               Download Resume
             </a>

@@ -3,82 +3,34 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 
 function Experience() {
-  useEffect(() => {
-    Aos.init({
-      duration: 1000,
-      once: true,
-      offset: 120,
-      easing: "ease-in-out",
-    });
-  }, []);
+  useEffect(() => { Aos.init({ duration: 1000, once: true, offset: 120, easing: "ease-in-out" }); }, []);
 
   const experiences = [
-    {
-      time: "2024 – Present",
-      title: "Office Assistant — Samoon Foundation (NGO)",
-      desc: "Managing digital and administrative operations including Google Ads campaigns, WordPress website updates, volunteer coordination, documentation, and outreach activities. Improved productivity using AI tools and Canva. Also supported finance tracking and internal reporting.",
-      skills: [
-        "Google Ads",
-        "WordPress",
-        "Canva",
-        "AI Tools",
-        "Documentation",
-        "Volunteer Coordination",
-        "Accounting Support",
-      ],
-    },
-    {
-      time: "2024 – Present",
-      title: "MERN Stack Developer — Intern (Nimokey.com)",
-      desc: "Working on scalable web applications using MERN stack. Developing React components, handling API integration, authentication flows, and dashboard features. Collaborating via GitHub in Agile workflow.",
-      skills: ["React", "JavaScript", "APIs", "GitHub", "Dashboard UI"],
-    },
-    {
-      time: "Apr 2025 – Jun 2025",
-      title: "Full-Stack Developer — Intern (Nova Nectar Services Pvt. Ltd.)",
-      desc: "Built full-stack web applications with responsive UI and secure APIs. Worked in Agile sprints, handled version control, and assisted in deployment workflows.",
-      skills: ["React", "PHP", "MySQL", "APIs", "GitHub"],
-    },
+    { time: "2024 - Present", title: "Office Assistant — Samoon Foundation (NGO)", desc: "Managing digital and administrative operations including Google Ads campaigns, WordPress website updates, volunteer coordination, documentation, and outreach activities. Improved productivity using AI tools and Canva. Also supported finance tracking and internal reporting.", skills: ["Google Ads","WordPress","Canva","AI Tools","Documentation","Volunteer Coordination","Accounting Support"] },
+    { time: "2024 - Present", title: "MERN Stack Developer — Intern (Nimokey.com)", desc: "Working on scalable web applications using MERN stack. Developing React components, handling API integration, authentication flows, and dashboard features. Collaborating via GitHub in Agile workflow.", skills: ["React","JavaScript","APIs","GitHub","Dashboard UI"] },
+    { time: "Apr 2025 - Jun 2025", title: "Full-Stack Developer — Intern (Nova Nectar Services Pvt. Ltd.)", desc: "Built full-stack web applications with responsive UI and secure APIs. Worked in Agile sprints, handled version control, and assisted in deployment workflows.", skills: ["React","PHP","MySQL","APIs","GitHub"] },
   ];
 
   return (
-    <section id="Experience" className="px-6 lg:px-20 text-slate-200">
-      {/* Heading */}
-      <h2
-        className="text-4xl lg:text-5xl font-bold text-center text-[#A78BFA] mb-16"
-        data-aos="fade-up"
-      >
-        Experience
-      </h2>
+    <section id="Experience" className="px-6 lg:px-20  text-slate-200">
+      <h2 className="text-4xl lg:text-5xl font-bold text-center text-violet-400 mb-16" data-aos="fade-up">Experience</h2>
 
-      {/* GRID */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 max-w-6xl mx-auto">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
         {experiences.map((exp, index) => (
-          <div
-            key={index}
-            data-aos={index % 2 === 0 ? "fade-right" : "fade-left"}
-            className="bg-slate-900 rounded-2xl p-8 hover:bg-slate-800 transition"
-          >
-            <span className="text-sm text-slate-400">{exp.time}</span>
+          <div key={index} data-aos={index % 2 === 0 ? "fade-right" : "fade-left"} className="bg-slate-900 rounded-2xl p-8 border border-[#1e2a4a] hover:bg-slate-800 hover:-translate-y-2 hover:shadow-[0_0_25px_rgba(139,92,246,0.15)] transition duration-300">
+            
+            <span className="inline-block text-xs tracking-wider text-slate-400 bg-slate-800 px-3 py-1 rounded-full">{exp.time}</span>
 
-            <h3 className="text-xl font-semibold text-white mt-2">
-              {exp.title}
-            </h3>
+            <h3 className="text-xl font-semibold text-slate-100 mt-4">{exp.title}</h3>
 
-            <p className="text-sm text-slate-400 mt-4 leading-relaxed text-justify">
-              {exp.desc}
-            </p>
+            <p className="text-sm text-slate-400 mt-4 leading-relaxed text-justify">{exp.desc}</p>
 
-            <ul className="flex flex-wrap gap-3 mt-6 text-sm">
+            <ul className="flex flex-wrap gap-3 mt-6">
               {exp.skills.map((skill, i) => (
-                <li
-                  key={i}
-                  className="px-4 py-1 rounded-full bg-[#183656] text-[#4EC1C6] border border-[#9988FB]"
-                >
-                  {skill}
-                </li>
+                <li key={i} className="px-4 py-1 rounded-full text-sm border border-violet-400 text-violet-400 hover:bg-violet-500 hover:text-white transition duration-300">{skill}</li>
               ))}
             </ul>
+
           </div>
         ))}
       </div>

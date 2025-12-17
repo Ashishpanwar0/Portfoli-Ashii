@@ -14,7 +14,7 @@ function Experience() {
   ];
 
   return (
-    <section id="Experience" className="px-6 lg:px-20  text-slate-200">
+    <section id="experience" className="px-6 lg:px-20  text-slate-200">
       <h2 className="text-4xl lg:text-5xl font-bold text-center text-violet-400 mb-16" data-aos="fade-up">Experience</h2>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto">

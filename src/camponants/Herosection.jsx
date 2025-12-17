@@ -26,7 +26,7 @@ function HeroSection() {
 
         <div className="flex flex-wrap gap-4 pt-4" data-aos="fade-up">
           <a href={resume} download="Ashish_Panwar_Resume.pdf" target="_blank" rel="noopener noreferrer" className="px-6 py-3 bg-violet-500 hover:bg-violet-600 text-white rounded-lg transition duration-300">Download Resume</a>
-          <a href="#Project" className="px-6 py-3 border border-violet-400 text-violet-400 hover:bg-violet-500 hover:text-white rounded-lg transition duration-300">View Projects</a>
+          <a href="#project" className="px-6 py-3 border border-violet-400 text-violet-400 hover:bg-violet-500 hover:text-white rounded-lg transition duration-300">View Projects</a>
         </div>
       </div>
 

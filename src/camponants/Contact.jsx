@@ -17,7 +17,7 @@ function Contact() {
   }, []);
 
   return (
-    <section id='Contact' className='w-full lg:h-[570px] h-135 overflow-hidden'>
+    <section id="contact" className='w-full lg:h-[570px] h-135 overflow-hidden'>
       <div className='text-center text-5xl mb-1 text-[#A78BFA] lg:mt-15 mt-10 hidden' data-aos="fade-down">
         <h1 className=''>Contact</h1>
       </div>

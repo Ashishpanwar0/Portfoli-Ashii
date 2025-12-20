@@ -82,8 +82,8 @@ function HeroSection() {
         </div>
       </div>
 
-      {/* RIGHT IMAGE */}
-      {/* 🔴 YAHI PROBLEM THI — overflow-hidden ADD KIYA */}
+
+
       <div
         className="lg:w-1/2 mt-12 lg:mt-0 relative flex justify-center items-center overflow-hidden"
         data-aos="fade-up-left"

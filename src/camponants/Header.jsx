@@ -12,7 +12,7 @@ function Header() {
   }, [open]);
 
   return (
-    <header className="top-0 left-0 w-full backdrop-blur">
+    <header className="top-0 left-0 w-full">
       <div className="max-w-7xl mx-auto px-6 lg:px-12 lg:py-10 h-30 flex items-center justify-between">
 
         {/* LOGO */}

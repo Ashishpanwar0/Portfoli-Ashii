@@ -9,7 +9,7 @@ import Contact from '../camponants/Contact.jsx';
 function Home() {
   return (
     <>
-      <section className='bg-[#0F172A]'>
+      <section className='bg-[#0F172A] overflow-x-hidden'>
         <Header/>
         <Herosection />
         <About />
